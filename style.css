@@ -1,0 +1,533 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#container
+{
+    max-width: 100%;
+    margin: auto;
+}
+/*nav bar*/
+.navigation,.remain-up{
+
+    display:flex;
+    text-align: center;
+}
+button{
+    background-color: white;
+}
+.remain-up{
+    margin-left: auto  none;
+}
+.logo > img{
+    width: 10%;
+    margin-right: none;
+    float: left;
+}
+.one,.up{
+    margin-right: 20px;
+}
+.black{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.home-tiles{
+    margin-left: auto ;
+    margin-right: 25%;
+    
+    justify-content: center;
+}
+.up{
+    border: none;
+    
+    
+    
+}
+.up:hover{
+    background-color: black;
+    color: white;
+    border-radius:10px 17px;
+}
+
+
+/*first section*/
+.flex{
+    display: flex;
+    margin-top: 20px;
+    max-width: 100%;
+    background-color:rgb(244, 239, 232);
+   
+    
+}
+ .first{
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    border: none;
+    border-radius: 100%;
+}
+.flex img {
+    filter: drop-shadow(20px 35px 16px rgb(71, 69, 69));
+}
+
+.word{
+    width: 400px;
+    margin: auto;
+    
+}
+.big{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
+}
+.explore{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    border: .5px solid black;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    
+}
+.explore1{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    border: .5px solid black;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    
+}
+.explore:hover{
+    color: white;
+    background-color:black;
+    border-radius: 15px 0px 18px;
+    transition-delay: 5ms;
+}
+ .explore1:hover{
+    color: white;
+    background-color:black;
+    border-radius: 15px 0px 18px;
+    transition-delay: 5ms;
+}
+/*rank*/
+.rank{
+    display: flex;
+    max-width: 40%;
+    background-color: antiquewhite;
+}
+.rank{
+    margin-top: -20px;
+    border:none;
+    border-radius: 15px;
+    
+}
+
+.vl{
+    margin-right: 20px;
+    margin-left: 20px;
+    border-left: 4px solid black;
+
+}
+.food{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size:x-small;
+}
+/*main menu*/
+.redbig{
+    font-size: large;
+    color: red;
+    font-weight: bold;
+    align-items: center;
+}
+
+/*second section*/
+.flex1{
+    display:flex;
+    margin-top: 40px;
+    padding: 10px;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+main{
+    font-weight: bold;
+    font-size: large;
+}
+
+.image{
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    border: none;
+    border-radius: 10%;
+}
+
+.flex1 > img {
+    margin-top: auto;
+}
+/*testimonies*/
+
+.test{
+    display: flex;
+    background-color: grey;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.what{
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    width: 150px;
+}
+.roundabout{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 100%;
+    
+    margin-top: -30px;
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.wording {
+    width: 250px;
+    margin-top: 30px;
+}
+.box1{
+    border: 1px solid black;
+    margin-top: 50px;
+    width: 300px;
+    height: 250px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+ 
+}
+.box{
+    margin-top: 90px;
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    
+ 
+}
+#box{
+    margin-right: auto;
+    background-color: aliceblue;
+}
+.testimonies{
+    margin-right: auto;
+}
+
+
+/*footer*/
+
+.suscribe{
+    width: 40%;
+}
+.mail{
+    width: 40%;
+    height: 30px;
+    border: 1px solid rgb(144, 137, 137);
+    border-radius: 15px;
+    filter: drop-shadow(10px black);
+}
+.suscriber{
+    height: 40px;
+    border: .3px solid black;
+    border-radius: 9px;
+}
+.suscriber:hover{
+    font-size: large;
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+/*footer nav*/
+.footer{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+/*MOBILE VERSIONa*/
+@media (min-width:300px) and (max-width:764px)
+{
+    .navigation{
+
+        display:block;
+        flex: none;
+    }
+    button{
+        background-color: white;
+    }
+    .remain-up{
+        margin-left: auto  none;
+    }
+    .logo > img{
+        width: 50%;
+        margin-left: auto;
+    }
+    .one,.up{
+        margin-right: 20px;
+    }
+    .black{
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 10px;
+    }
+    .home-tiles{
+        display: inline;
+    }
+    .up{
+        border: none;
+        
+        
+        
+    }
+    .up:hover{
+        background-color: black;
+        color: white;
+        border-radius:10px 17px;
+    }
+    
+    
+    /*first section*/
+    .flex{
+        display: flex;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        max-width: 100%;
+        background-color:rgb(244, 239, 232);
+       
+        
+    }
+     .first{
+        margin: auto;
+        width: 500px;
+        height: 300px;
+        border: none;
+        border-radius: 100%;
+    }
+    .flex img {
+        filter: drop-shadow(20px 35px 16px rgb(71, 69, 69));
+    }
+    
+    .word{
+        width: 400px;
+        margin: auto;
+        
+    }
+    .big{
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+    .red{
+        color: red;
+    }
+    .yellow{
+        color: yellow;
+    }
+    .explore{
+        margin-top: 10px;
+        margin-bottom: 50px;
+        margin-right: 20px;
+        border: .5px solid black;
+        border-radius: 5px;
+        height: 40px;
+        width: 150px;
+        
+    }
+    .explore1{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        margin-right: 20px;
+        border: .5px solid black;
+        border-radius: 5px;
+        height: 40px;
+        width: 150px;
+        
+    }
+    .explore:hover{
+        color: white;
+        background-color:black;
+        border-radius: 15px 0px 18px;
+        transition-delay: 5ms;
+    }
+     .explore1:hover{
+        color: white;
+        background-color:black;
+        border-radius: 15px 0px 18px;
+        transition-delay: 5ms;
+    }
+    /*rank*/
+    .rank{
+        display: flex;
+        max-width: 40%;
+        background-color: antiquewhite;
+    }
+    .rank{
+        margin-top: -20px;
+        border:none;
+        border-radius: 15px;
+        
+    }
+    
+    .vl{
+        margin-right: 20px;
+        margin-left: 20px;
+        border-left: 4px solid black;
+    
+    }
+    .food{
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size:x-small;
+    }
+    /*main menu*/
+    .redbig{
+        font-size: large;
+        color: red;
+        font-weight: bold;
+        align-items: center;
+    }
+    
+    /*second section*/
+    .flex1{
+        display:flex;
+        margin-top: 40px;
+        padding: 10px;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    
+    main{
+        font-weight: bold;
+        font-size: large;
+    }
+    
+    .image{
+        margin: auto;
+        width: 500px;
+        height: 300px;
+        border: none;
+        border-radius: 10%;
+    }
+    
+    .flex1 > img {
+        margin-top: auto;
+    }
+    /*testimonies*/
+    
+    .test{
+        display: flex;
+        background-color: grey;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .what{
+        margin: auto;
+        font-size: 30px;
+        font-weight: bold;
+        width: 150px;
+    }
+    .roundabout{
+        width: 50px;
+        height: 50px;
+        border: none;
+        border-radius: 100%;
+        
+        margin-top: -30px;
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    
+    .wording {
+        width: 250px;
+        margin-top: 30px;
+    }
+    .box1{
+        border: 1px solid black;
+        margin-top: 50px;
+        width: 300px;
+        height: 250px;
+        border: none;
+        border-radius: 15px;
+        padding: 10px;
+     
+    }
+    .box{
+        margin-top: 90px;
+        border: 1px solid black;
+        width: 300px;
+        height: 250px;
+        border: none;
+        border-radius: 15px;
+        padding: 10px;
+        
+     
+    }
+    #box{
+        margin-right: auto;
+        background-color: aliceblue;
+    }
+    .testimonies{
+        margin-right: auto;
+    }
+    
+    
+    /*footer*/
+    
+    .suscribe{
+        width: 40%;
+    }
+    .mail{
+        width: 40%;
+        height: 30px;
+        border: 1px solid rgb(144, 137, 137);
+        border-radius: 15px;
+        filter: drop-shadow(10px black);
+    }
+    .suscriber{
+        height: 40px;
+        border: .3px solid black;
+        border-radius: 9px;
+    }
+    .suscriber:hover{
+        font-size: large;
+        background-color: black;
+        color: whitesmoke;
+    
+    }
+    
+    /*footer nav*/
+    .footer{
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+}
+
+
+
+
+
+
+
+
